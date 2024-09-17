@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: rgb(0, 0, 0);
+}
+
+#section1 {
+    background-color: rgb(27, 82, 233);
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 20px; 
+}
+
+.section1-img-left img {
+    height: 80%; /* Ajusta a altura da imagem para não ocupar toda a altura do contêiner */
+    max-height: 80px; /* Limita a altura máxima da imagem */
+}
+
+.botao {
+    font-size: 24px; /* Ajusta o tamanho da fonte */
+    display: flex;
+    gap: 20px;
+}
+
+#section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 20px; /* Ajusta o espaçamento interno */
+}
+
+.section2-img-left img {
+    height: 20vh; /* Ajusta a altura da imagem usando unidade de viewport */
+    max-height: 150px; /* Limita a altura máxima da imagem */
+}
+
+p {
+    width: 100%; /* Ajusta o texto para usar toda a largura disponível */
+    max-width: 600px; /* Limita a largura máxima para garantir legibilidade */
+    font-size: 16px; /* Ajusta o tamanho da fonte do texto */
+    line-height: 1.6; /* Melhora a legibilidade com espaçamento entre linhas */
+}
+
+#section3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 20px;
+}
+
+.section3-img-right img {
+    height: 20vh; /* Ajusta a altura da imagem usando unidade de viewport */
+    max-height: 150px; /* Limita a altura máxima da imagem */
+}
+
+#section4 {
+    background-color: rgb(27, 82, 233);
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza o conteúdo do rodapé */
+    padding: 0 20px; 
+}
+
+#section5 {
+    background-color: rgb(27, 82, 233);
+    height: 60px; /* Aumenta a altura para melhor visualização dos elementos */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 20px; 
+}
+
+.botoes {
+    font-size: 24px; /* Ajusta o tamanho da fonte */
+    display: flex;
+    gap: 20px;
+}
+
+.img-senai img {
+    height: 80%; /* Ajusta a altura da imagem para não ocupar toda a altura do contêiner */
+    max-height: 60px; /* Limita a altura máxima da imagem */
+}
